@@ -20,16 +20,23 @@
       <label id="number-label">Number</label>
       <input type="number" id="number" min="1" max="10" placeholder="numer">
       <!-- Dropdown -->
+      <label id="dropdown-label">Dropdown</label>
       <select id="dropdown">
         <option value="dropdown">Dropdown</option>
         <option value="dropdown">DropDwon</option>
       </select>
       <!-- Radio Buttons -->
-      <input type="radio" name="radio" id="radio1" value="radio1">
-      <input type="radio" name="radio" id="radio2" value="radio2">
+      <div class="radio-buttons">
+        <input type="radio" name="radio" id="radio1" value="radio1">
+        <label for="opt1">Male</label>
+        <input type="radio" name="radio" id="radio2" value="radio2">
+        <label>Female</label>
+      </div>
       <!-- Checkbox -->
-      <input type="checkbox" value="Option 1" name="opt1" id="opt1">
-      <input type="checkbox" value="Option 2" name="opt2" id="opt2">
+      <div class="checkboxes">
+        <input type="checkbox" value="Option 1" name="opt1" id="opt1">
+        <input type="checkbox" value="Option 2" name="opt2" id="opt2">
+      </div>
       <textarea name="test" id="test" cols="30" rows="10"></textarea>
       <button id="submit">Submit</button>
     </form>
